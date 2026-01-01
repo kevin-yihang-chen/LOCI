@@ -1,0 +1,30 @@
+# Generated trigger artefacts
+qwen25vl/clinical_trigger_ids_*.pt
+qwen25vl/trigger_id_map_*.json
+qwen25vl/dropped_trigger_words_*.json
+qwen25vl/trigger_sequences_*.json
+
+# Run outputs
+qwen25vl/results/
+**/results.jsonl
+**/results_part*.jsonl
+**/runner_log*.txt
+**/result.txt
+**/debug.jsonl
+**/*_visual_only.txt
+**/*.log
+
+# SLURM
+slurm-*.out
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store

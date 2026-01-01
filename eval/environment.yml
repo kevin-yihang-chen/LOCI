@@ -1,0 +1,17 @@
+# Evaluation environment for the LOCI report-generation experiments.
+# This env is used ONLY for scoring generated reports; generation runs in the
+# backbone's own environment.
+name: loci-eval
+channels: [conda-forge, defaults]
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - torch==2.1.2
+      - transformers==4.37.2
+      - nltk==3.8.1
+      - rouge-score==0.1.2
+      - f1chexbert==0.0.2      # CheXbert 14c-F1 / 5c-F1
+      - radgraph==0.1.18       # RadGraph F1
+      - scikit-learn==1.3.2
+      - numpy==1.26.4

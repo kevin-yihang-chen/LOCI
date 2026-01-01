@@ -1,0 +1,46 @@
+{
+  "_comment": "Authoritative LOCI clinical phrase lexicon. Canonical findings and matched surface forms follow Appendix C.1; modifier and cue sets follow Appendix C.1-C.2.",
+  "version": "1.0",
+  "findings": [
+    {"name": "pleural effusion", "aliases": ["pleural effusion", "effusion", "pleural fluid"]},
+    {"name": "pneumothorax", "aliases": ["pneumothorax", "ptx", "apical pneumothorax"]},
+    {"name": "focal consolidation", "aliases": ["focal consolidation", "consolidation", "airspace consolidation"]},
+    {"name": "lung opacity", "aliases": ["opacity", "lung opacity", "airspace opacity", "pulmonary opacity"]},
+    {"name": "pulmonary edema", "aliases": ["pulmonary edema", "edema", "interstitial edema", "alveolar edema"]},
+    {"name": "atelectasis", "aliases": ["atelectasis", "subsegmental atelectasis", "bibasilar atelectasis", "discoid atelectasis"]},
+    {"name": "cardiomegaly", "aliases": ["cardiomegaly", "enlarged cardiac silhouette", "enlarged heart", "cardiac enlargement"]},
+    {"name": "enlarged cardiomediastinal silhouette", "aliases": ["enlarged cardiomediastinal silhouette", "widened cardiomediastinal silhouette", "enlarged cardiomediastinum"]},
+    {"name": "pulmonary nodule", "aliases": ["pulmonary nodule", "lung nodule", "nodular opacity", "nodular density", "nodule"]},
+    {"name": "pulmonary mass", "aliases": ["pulmonary mass", "lung mass", "mass lesion", "hilar mass"]},
+    {"name": "lung lesion", "aliases": ["lung lesion", "pulmonary lesion", "parenchymal lesion"]},
+    {"name": "infiltrate", "aliases": ["infiltrate", "infiltrative opacity", "pulmonary infiltrate"]},
+    {"name": "pneumonia", "aliases": ["pneumonia", "multifocal pneumonia", "lobar pneumonia"]},
+    {"name": "pleural thickening", "aliases": ["pleural thickening", "apical pleural thickening", "biapical pleural thickening", "pleural apical thickening"]},
+    {"name": "pleural plaque", "aliases": ["pleural plaque", "pleural plaques", "calcified pleural plaque"]},
+    {"name": "fibrosis", "aliases": ["fibrosis", "fibrotic change", "fibrotic opacity"]},
+    {"name": "scarring", "aliases": ["scarring", "scar", "linear scarring"]},
+    {"name": "hyperinflation", "aliases": ["hyperinflation", "hyperinflated lungs", "hyperexpanded lungs"]},
+    {"name": "emphysema", "aliases": ["emphysema", "emphysematous change", "emphysematous lungs"]},
+    {"name": "interstitial opacity", "aliases": ["interstitial opacity", "interstitial infiltrate", "reticular opacity", "diffuse interstitial opacity"]},
+    {"name": "hilar prominence", "aliases": ["hilar prominence", "hilar enlargement", "prominent hila"]},
+    {"name": "mediastinal widening", "aliases": ["widened mediastinum", "mediastinal widening", "enlarged mediastinum"]},
+    {"name": "fracture", "aliases": ["fracture", "acute fracture", "displaced fracture"]},
+    {"name": "hiatal hernia", "aliases": ["hiatal hernia", "large hiatal hernia", "paraesophageal hernia"]},
+    {"name": "aspiration", "aliases": ["aspiration", "aspiration opacity", "aspiration pneumonia"]},
+    {"name": "support device", "aliases": ["support device", "support devices", "lines and tubes", "medical device"]}
+  ],
+  "modifiers": [
+    "left", "right", "bilateral", "upper lobe", "lower lobe", "middle lobe",
+    "upper lung", "lower lung", "apical", "biapical", "basilar", "bibasilar",
+    "perihilar", "retrocardiac", "hilar"
+  ],
+  "scope_cues": {
+    "pos_override": ["no change in", "unchanged", "stable", "persistent", "residual", "decreased but persistent"],
+    "unc": ["possible", "possibly", "may represent", "could represent", "cannot exclude", "difficult to exclude", "questionable"],
+    "neg": ["no", "without", "free of", "negative for", "absence of", "resolved", "resolution of"]
+  },
+  "clause_boundaries": {
+    "sentence": [".", "?", "!", ";"],
+    "adversative": ["but", "however", "although", "whereas", "despite"]
+  }
+}
